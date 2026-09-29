@@ -1,0 +1,26 @@
+[package]
+name = "remote_control"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+audioadapter-buffers = "4.0.0"
+audiopus = "0.2.0"
+cpal = "0.18.1"
+dashmap = "6.2.1"
+env_logger = "0.11.11"
+hex = "0.4.3"
+hmac = "0.13.0"
+mdns-sd = "0.20.0"
+minifb = "0.28.0"
+openh264 = "0.9.3"
+quinn = "0.11.11"
+rodio = "0.22.2"
+rubato = "4.0.0"
+serde = { version = "1.0.228", features = ["derive"] }
+sha2 = "0.11.0"
+thiserror = "2.0.18"
+tokio = { version = "1.52.3", features = ["full"] }
+wincode = { version = "0.5.5", features = ["derive"] }
+yuv = "0.8.16"
+
